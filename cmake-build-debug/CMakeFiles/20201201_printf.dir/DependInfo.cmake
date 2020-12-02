@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mscot/CLionProjects/20201201_printf/ft_printf.c" "/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/ft_printf.c.o"
-  "/Users/mscot/CLionProjects/20201201_printf/ft_printf_utils.c" "/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o"
-  "/Users/mscot/CLionProjects/20201201_printf/main.c" "/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/main.c.o"
-  "/Users/mscot/CLionProjects/20201201_printf/parser_utils.c" "/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/parser_utils.c.o"
-  "/Users/mscot/CLionProjects/20201201_printf/placeholder_print_utils.c" "/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o"
+  "/Users/mscot/CLionProjects/ft_printf/ft_printf.c" "/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/ft_printf.c.o"
+  "/Users/mscot/CLionProjects/ft_printf/ft_printf_utils.c" "/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o"
+  "/Users/mscot/CLionProjects/ft_printf/main.c" "/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/main.c.o"
+  "/Users/mscot/CLionProjects/ft_printf/parser_utils.c" "/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/parser_utils.c.o"
+  "/Users/mscot/CLionProjects/ft_printf/placeholder_print_utils.c" "/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

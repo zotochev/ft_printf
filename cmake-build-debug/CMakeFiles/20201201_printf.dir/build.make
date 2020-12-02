@@ -63,10 +63,10 @@ RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/4
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mscot/CLionProjects/20201201_printf
+CMAKE_SOURCE_DIR = /Users/mscot/CLionProjects/ft_printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mscot/CLionProjects/20201201_printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mscot/CLionProjects/ft_printf/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/20201201_printf.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/20201201_printf.dir/flags.make
 
 CMakeFiles/20201201_printf.dir/main.c.o: CMakeFiles/20201201_printf.dir/flags.make
 CMakeFiles/20201201_printf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/20201201_printf.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/main.c.o   -c /Users/mscot/CLionProjects/20201201_printf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/20201201_printf.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/main.c.o   -c /Users/mscot/CLionProjects/ft_printf/main.c
 
 CMakeFiles/20201201_printf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/20201201_printf.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/20201201_printf/main.c > CMakeFiles/20201201_printf.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/ft_printf/main.c > CMakeFiles/20201201_printf.dir/main.c.i
 
 CMakeFiles/20201201_printf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/20201201_printf.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/20201201_printf/main.c -o CMakeFiles/20201201_printf.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/ft_printf/main.c -o CMakeFiles/20201201_printf.dir/main.c.s
 
 CMakeFiles/20201201_printf.dir/ft_printf.c.o: CMakeFiles/20201201_printf.dir/flags.make
 CMakeFiles/20201201_printf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/20201201_printf.dir/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/ft_printf.c.o   -c /Users/mscot/CLionProjects/20201201_printf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/20201201_printf.dir/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/ft_printf.c.o   -c /Users/mscot/CLionProjects/ft_printf/ft_printf.c
 
 CMakeFiles/20201201_printf.dir/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/20201201_printf.dir/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/20201201_printf/ft_printf.c > CMakeFiles/20201201_printf.dir/ft_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/ft_printf/ft_printf.c > CMakeFiles/20201201_printf.dir/ft_printf.c.i
 
 CMakeFiles/20201201_printf.dir/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/20201201_printf.dir/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/20201201_printf/ft_printf.c -o CMakeFiles/20201201_printf.dir/ft_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/ft_printf/ft_printf.c -o CMakeFiles/20201201_printf.dir/ft_printf.c.s
 
 CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o: CMakeFiles/20201201_printf.dir/flags.make
 CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o: ../ft_printf_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o   -c /Users/mscot/CLionProjects/20201201_printf/ft_printf_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o   -c /Users/mscot/CLionProjects/ft_printf/ft_printf_utils.c
 
 CMakeFiles/20201201_printf.dir/ft_printf_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/20201201_printf.dir/ft_printf_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/20201201_printf/ft_printf_utils.c > CMakeFiles/20201201_printf.dir/ft_printf_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/ft_printf/ft_printf_utils.c > CMakeFiles/20201201_printf.dir/ft_printf_utils.c.i
 
 CMakeFiles/20201201_printf.dir/ft_printf_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/20201201_printf.dir/ft_printf_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/20201201_printf/ft_printf_utils.c -o CMakeFiles/20201201_printf.dir/ft_printf_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/ft_printf/ft_printf_utils.c -o CMakeFiles/20201201_printf.dir/ft_printf_utils.c.s
 
 CMakeFiles/20201201_printf.dir/parser_utils.c.o: CMakeFiles/20201201_printf.dir/flags.make
 CMakeFiles/20201201_printf.dir/parser_utils.c.o: ../parser_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/20201201_printf.dir/parser_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/parser_utils.c.o   -c /Users/mscot/CLionProjects/20201201_printf/parser_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/20201201_printf.dir/parser_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/parser_utils.c.o   -c /Users/mscot/CLionProjects/ft_printf/parser_utils.c
 
 CMakeFiles/20201201_printf.dir/parser_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/20201201_printf.dir/parser_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/20201201_printf/parser_utils.c > CMakeFiles/20201201_printf.dir/parser_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/ft_printf/parser_utils.c > CMakeFiles/20201201_printf.dir/parser_utils.c.i
 
 CMakeFiles/20201201_printf.dir/parser_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/20201201_printf.dir/parser_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/20201201_printf/parser_utils.c -o CMakeFiles/20201201_printf.dir/parser_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/ft_printf/parser_utils.c -o CMakeFiles/20201201_printf.dir/parser_utils.c.s
 
 CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o: CMakeFiles/20201201_printf.dir/flags.make
 CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o: ../placeholder_print_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o   -c /Users/mscot/CLionProjects/20201201_printf/placeholder_print_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o   -c /Users/mscot/CLionProjects/ft_printf/placeholder_print_utils.c
 
 CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/20201201_printf/placeholder_print_utils.c > CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mscot/CLionProjects/ft_printf/placeholder_print_utils.c > CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.i
 
 CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/20201201_printf/placeholder_print_utils.c -o CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mscot/CLionProjects/ft_printf/placeholder_print_utils.c -o CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s
 
 # Object files for target 20201201_printf
 20201201_printf_OBJECTS = \
@@ -160,7 +160,7 @@ CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s: cmake_force
 20201201_printf: CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o
 20201201_printf: CMakeFiles/20201201_printf.dir/build.make
 20201201_printf: CMakeFiles/20201201_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable 20201201_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable 20201201_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/20201201_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/20201201_printf.dir/clean:
 .PHONY : CMakeFiles/20201201_printf.dir/clean
 
 CMakeFiles/20201201_printf.dir/depend:
-	cd /Users/mscot/CLionProjects/20201201_printf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mscot/CLionProjects/20201201_printf /Users/mscot/CLionProjects/20201201_printf /Users/mscot/CLionProjects/20201201_printf/cmake-build-debug /Users/mscot/CLionProjects/20201201_printf/cmake-build-debug /Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mscot/CLionProjects/ft_printf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mscot/CLionProjects/ft_printf /Users/mscot/CLionProjects/ft_printf /Users/mscot/CLionProjects/ft_printf/cmake-build-debug /Users/mscot/CLionProjects/ft_printf/cmake-build-debug /Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/20201201_printf.dir/depend
 

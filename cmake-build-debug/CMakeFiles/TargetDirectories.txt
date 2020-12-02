@@ -1,3 +1,3 @@
-/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir
+/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/20201201_printf.dir

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="20201201_printf">
-				<Option output="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/20201201_printf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug"/>
+				<Option output="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/20201201_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 20201201_printf"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 20201201_printf"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="20201201_printf/fast">
-				<Option output="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/20201201_printf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug"/>
+				<Option output="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/20201201_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mscot/CLionProjects/ft_printf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,32 +71,32 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 20201201_printf/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/20201201_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 20201201_printf/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mscot/CLionProjects/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/ft_printf.c">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/ft_printf.c">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/ft_printf.h">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/ft_printf.h">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/ft_printf_utils.c">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/ft_printf_utils.c">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/main.c">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/main.c">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/parser_utils.c">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/parser_utils.c">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/placeholder_print_utils.c">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/placeholder_print_utils.c">
 			<Option target="20201201_printf"/>
 		</Unit>
-		<Unit filename="/Users/mscot/CLionProjects/20201201_printf/CMakeLists.txt">
+		<Unit filename="/Users/mscot/CLionProjects/ft_printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
