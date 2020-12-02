@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mscot/CLionProjects/20201201_printf/ft_printf.h
+unistd.h
+-
+stdarg.h
+-
+stdio.h
+-
+
+/Users/mscot/CLionProjects/20201201_printf/main.c
+ft_printf.h
+/Users/mscot/CLionProjects/20201201_printf/ft_printf.h
+
