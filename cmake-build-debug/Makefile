@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/48D436FD-5A7A-4ECE-AA6D-CF38A91CB743/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/5806BFCA-F1AF-47CB-9860-7422AB73EFB1/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/48D436FD-5A7A-4ECE-AA6D-CF38A91CB743/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/5806BFCA-F1AF-47CB-9860-7422AB73EFB1/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mscot/CLionProjects/ft_printf
+CMAKE_SOURCE_DIR = /Users/mscot/CLionProjects/20201203_ft_printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mscot/CLionProjects/ft_printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mscot/CLionProjects/20201203_ft_printf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /Users/mscot/CLionProjects/ft_printf/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/48D436FD-5A7A-4ECE-AA6D-CF38A91CB743/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/5806BFCA-F1AF-47CB-9860-7422AB73EFB1/d/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/48D436FD-5A7A-4ECE-AA6D-CF38A91CB743/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n003vh9000yw28/T/AppTranslocation/5806BFCA-F1AF-47CB-9860-7422AB73EFB1/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles /Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mscot/CLionProjects/20201203_ft_printf/cmake-build-debug/CMakeFiles /Users/mscot/CLionProjects/20201203_ft_printf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mscot/CLionProjects/ft_printf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mscot/CLionProjects/20201203_ft_printf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 20201201_printf
+# Target rules for targets named 20201203_ft_printf
 
 # Build rule for target.
-20201201_printf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20201201_printf
-.PHONY : 20201201_printf
+20201203_ft_printf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20201203_ft_printf
+.PHONY : 20201203_ft_printf
 
 # fast build rule for target.
-20201201_printf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/build
-.PHONY : 20201201_printf/fast
+20201203_ft_printf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/build
+.PHONY : 20201203_ft_printf/fast
+
+format_parser.o: format_parser.c.o
+
+.PHONY : format_parser.o
+
+# target to build an object file
+format_parser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/format_parser.c.o
+.PHONY : format_parser.c.o
+
+format_parser.i: format_parser.c.i
+
+.PHONY : format_parser.i
+
+# target to preprocess a source file
+format_parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/format_parser.c.i
+.PHONY : format_parser.c.i
+
+format_parser.s: format_parser.c.s
+
+.PHONY : format_parser.s
+
+# target to generate assembly for a file
+format_parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/format_parser.c.s
+.PHONY : format_parser.c.s
 
 ft_printf.o: ft_printf.c.o
 
@@ -149,7 +176,7 @@ ft_printf.o: ft_printf.c.o
 
 # target to build an object file
 ft_printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/ft_printf.c.o
 .PHONY : ft_printf.c.o
 
 ft_printf.i: ft_printf.c.i
@@ -158,7 +185,7 @@ ft_printf.i: ft_printf.c.i
 
 # target to preprocess a source file
 ft_printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/ft_printf.c.i
 .PHONY : ft_printf.c.i
 
 ft_printf.s: ft_printf.c.s
@@ -167,35 +194,8 @@ ft_printf.s: ft_printf.c.s
 
 # target to generate assembly for a file
 ft_printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
-
-ft_printf_utils.o: ft_printf_utils.c.o
-
-.PHONY : ft_printf_utils.o
-
-# target to build an object file
-ft_printf_utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf_utils.c.o
-.PHONY : ft_printf_utils.c.o
-
-ft_printf_utils.i: ft_printf_utils.c.i
-
-.PHONY : ft_printf_utils.i
-
-# target to preprocess a source file
-ft_printf_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf_utils.c.i
-.PHONY : ft_printf_utils.c.i
-
-ft_printf_utils.s: ft_printf_utils.c.s
-
-.PHONY : ft_printf_utils.s
-
-# target to generate assembly for a file
-ft_printf_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/ft_printf_utils.c.s
-.PHONY : ft_printf_utils.c.s
 
 main.o: main.c.o
 
@@ -203,7 +203,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -212,7 +212,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -221,62 +221,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/main.c.s
 .PHONY : main.c.s
 
-parser_utils.o: parser_utils.c.o
+print_numbers.o: print_numbers.c.o
 
-.PHONY : parser_utils.o
-
-# target to build an object file
-parser_utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/parser_utils.c.o
-.PHONY : parser_utils.c.o
-
-parser_utils.i: parser_utils.c.i
-
-.PHONY : parser_utils.i
-
-# target to preprocess a source file
-parser_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/parser_utils.c.i
-.PHONY : parser_utils.c.i
-
-parser_utils.s: parser_utils.c.s
-
-.PHONY : parser_utils.s
-
-# target to generate assembly for a file
-parser_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/parser_utils.c.s
-.PHONY : parser_utils.c.s
-
-placeholder_print_utils.o: placeholder_print_utils.c.o
-
-.PHONY : placeholder_print_utils.o
+.PHONY : print_numbers.o
 
 # target to build an object file
-placeholder_print_utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.o
-.PHONY : placeholder_print_utils.c.o
+print_numbers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_numbers.c.o
+.PHONY : print_numbers.c.o
 
-placeholder_print_utils.i: placeholder_print_utils.c.i
+print_numbers.i: print_numbers.c.i
 
-.PHONY : placeholder_print_utils.i
+.PHONY : print_numbers.i
 
 # target to preprocess a source file
-placeholder_print_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.i
-.PHONY : placeholder_print_utils.c.i
+print_numbers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_numbers.c.i
+.PHONY : print_numbers.c.i
 
-placeholder_print_utils.s: placeholder_print_utils.c.s
+print_numbers.s: print_numbers.c.s
 
-.PHONY : placeholder_print_utils.s
+.PHONY : print_numbers.s
 
 # target to generate assembly for a file
-placeholder_print_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201201_printf.dir/build.make CMakeFiles/20201201_printf.dir/placeholder_print_utils.c.s
-.PHONY : placeholder_print_utils.c.s
+print_numbers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_numbers.c.s
+.PHONY : print_numbers.c.s
+
+print_processor.o: print_processor.c.o
+
+.PHONY : print_processor.o
+
+# target to build an object file
+print_processor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_processor.c.o
+.PHONY : print_processor.c.o
+
+print_processor.i: print_processor.c.i
+
+.PHONY : print_processor.i
+
+# target to preprocess a source file
+print_processor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_processor.c.i
+.PHONY : print_processor.c.i
+
+print_processor.s: print_processor.c.s
+
+.PHONY : print_processor.s
+
+# target to generate assembly for a file
+print_processor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20201203_ft_printf.dir/build.make CMakeFiles/20201203_ft_printf.dir/print_processor.c.s
+.PHONY : print_processor.c.s
 
 # Help Target
 help:
@@ -286,22 +286,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 20201201_printf"
+	@echo "... 20201203_ft_printf"
+	@echo "... format_parser.o"
+	@echo "... format_parser.i"
+	@echo "... format_parser.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
-	@echo "... ft_printf_utils.o"
-	@echo "... ft_printf_utils.i"
-	@echo "... ft_printf_utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... parser_utils.o"
-	@echo "... parser_utils.i"
-	@echo "... parser_utils.s"
-	@echo "... placeholder_print_utils.o"
-	@echo "... placeholder_print_utils.i"
-	@echo "... placeholder_print_utils.s"
+	@echo "... print_numbers.o"
+	@echo "... print_numbers.i"
+	@echo "... print_numbers.s"
+	@echo "... print_processor.o"
+	@echo "... print_processor.i"
+	@echo "... print_processor.s"
 .PHONY : help
 
 

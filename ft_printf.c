@@ -1,76 +1,91 @@
 #include "ft_printf.h"
 
-t_placeholder parser(const char *placeholder, va_list argptr)
-{
-	t_placeholder placeholder_values;
+// cspdiuxX%
 
-	placeholder_values = new_placeholder();
-	if (is_placeholder_valid(placeholder, &placeholder_values))
+void	print_char(char c, int num)
+{
+	while (num-- > 0)
+		write(1, &c, 1);
+}
+
+void	format_print_out(t_format *format)
+{
+	char	fill_symbol;
+
+	if (!format->flag_minus && format->flag_null
+	&& ft_strchr("diuxX%", format->type) && (format->arg_length > format->width))
+		fill_symbol = '0';
+	else if (format->type == '%' && format->flag_null)
+		fill_symbol = '0';
+	else
+		fill_symbol = ' ';
+	if (!format->flag_minus)
 	{
-		get_flag(placeholder, &placeholder_values);
-		get_type(placeholder, &placeholder_values);
-		get_width(placeholder, &placeholder_values, argptr);
-		get_precision(placeholder, &placeholder_values, argptr);
-		get_placeholder_length(placeholder, &placeholder_values);
+		if ((format->width > format->arg_length) && format->type == 'p')
+			print_char(fill_symbol, format->width - format->arg_length - 2);
+		if ((format->width > format->arg_length) && format->type != 'p')
+			print_char(fill_symbol, format->width - format->arg_length - format->negative);
 	}
-//	printf("\nvalid:		%d\n", placeholder_values.valid);
-//	printf("flag:		%c\n", placeholder_values.flag);
-//	printf("width:		%d\n", placeholder_values.width);
-//	printf("precision:	%d\n", placeholder_values.precision);
-//	printf("type:		%c\n", placeholder_values.type);
-//	printf("length:		%d\n", placeholder_values.placeholder_length);
-	return (placeholder_values);
+	if (format->negative)
+		ft_putchar_fd('-', 1);
 }
 
-void	placeholder_print(t_placeholder *placeholder_values, va_list argptr)
+void	format_print_out_after(t_format *format)
 {
-	if (placeholder_values->type == 'c')
-		placeholder_values->arg_length = put_char(va_arg(argptr, int));
-	else if (placeholder_values->type == 's')
-		placeholder_values->arg_length = put_string(va_arg(argptr, char *), placeholder_values);
-	else if (placeholder_values->type == 'd'
-			|| placeholder_values->type == 'i')
-		placeholder_values->arg_length = put_number_iter(va_arg(argptr, int), 10, placeholder_values);
-	else if (placeholder_values->type == 'u')
-		placeholder_values->arg_length = put_number_iter(va_arg(argptr, unsigned int), 10, placeholder_values);
-	else if (placeholder_values->type == 'x'
-			|| placeholder_values->type == 'X')
-		placeholder_values->arg_length = put_number_iter(va_arg(argptr, unsigned int), 16, placeholder_values);
-	else if (placeholder_values->type == 'p')
-		placeholder_values->arg_length = put_pointer_iter(va_arg(argptr, unsigned long), 16, placeholder_values);
-	else if (placeholder_values->type == '%')
-		placeholder_values->arg_length = put_percent_iter(placeholder_values);
+	char	fill_symbol;
+
+	fill_symbol = ' ';
+	if (format->flag_minus)
+	{
+		if ((format->width > format->arg_length) && format->type == 'p')
+			print_char(fill_symbol, format->width - format->arg_length - 2);
+		if ((format->width > format->arg_length) && format->type != 'p')
+			print_char(fill_symbol, format->width - format->arg_length - format->negative);
+	}
 }
 
-int placeholder_processor(const char *placeholder, va_list argptr, t_placeholder *placeholder_values)
+int format_processor(const char *string, t_format *format, va_list ap)
 {
-	*placeholder_values = parser(placeholder, argptr);
-	placeholder_print(placeholder_values, argptr);
-	return (placeholder_values->placeholder_length);
+	if (*string)
+	{
+		*format = new_format_object();
+		format_parser(string, format, ap);
+
+		format_print_out(format);
+		arg_print_out(format, ap);
+		format_print_out_after(format);
+		if (format->arg_length > format->width)
+			return (format->arg_length + 0);
+		else
+			return (format->width + 0);
+	}
 }
 
-int ft_printf(const char *string, ...)
+int 	ft_printf(const char *string, ...)
 {
-	int		count;
-	int 	return_value;
-	t_placeholder	placeholder_values;
-	va_list	argptr;
+	int 		sym_printed;
+	va_list 	ap;
+	t_format	format;
 
-	count = 0;
-	return_value = 0;
-	va_start(argptr, string);
+	sym_printed = 0;
+	if (!string)
+		return (0);
+	va_start(ap, string);
+
 	while (*string)
 	{
 		if (*string == '%')
 		{
-			string += placeholder_processor(&string[count + 1], argptr, &placeholder_values);
-			return_value += placeholder_values.arg_length;
-			continue ;
+			sym_printed += format_processor(++string, &format, ap);
+			string += format.format_len + 0;
 		}
-		write(1, string, 1);
-		string++;
-		return_value++;
+		if (*string)
+		{
+			ft_putchar_fd(*string, 1);
+			sym_printed++;
+			string++;
+		}
 	}
-	va_end(argptr);
-	return (return_value);
+	va_end(ap);
+	return (sym_printed);
 }

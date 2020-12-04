@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4261cef3-ab4a-4546-ae38-bca5f8dd35b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kC5cFKl2t66qfWOIIKKhClQTS0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4261cef3-ab4a-4546-ae38-bca5f8dd35b0" name="Default Changelist" comment="" />
+      <created>1604950606818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604950606818</updated>
+      <workItem from="1604950607968" duration="184000" />
+      <workItem from="1604988559875" duration="126000" />
+      <workItem from="1605191811427" duration="817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="835" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605192765254">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="835" y="353" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605192765254" />
+    <state x="1230" y="424" key="EnvironmentVariablesDialog" timestamp="1605191989085">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1230" y="424" key="EnvironmentVariablesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605191989085" />
+    <state x="879" y="331" key="SettingsEditor" timestamp="1605192328203">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="879" y="331" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1605192328203" />
+    <state x="1266" y="434" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1605192060270">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1266" y="434" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.23.2560.1337@0.23.2560.1337" timestamp="1605192060270" />
+    <state x="1095" y="370" key="run.anything.popup" timestamp="1605191843355">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1095" y="370" key="run.anything.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1605191843355" />
+  </component>
+</project>
